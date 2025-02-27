@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F1B420;
+    background-color: #e4d47d;
     height: 100vh;
 }
 
@@ -21,24 +21,9 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: #F1B420;
     height: 80%;
     width: 35%;
 }
-
-.cards {
-    background-color: #ffffff;
-    width: 600px;
-    height: 200px;
-    border-radius: 5px;
-    text-align: justify;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 0 15px 30px rgba(145, 145, 145, 0.3);
-    margin-left: 50px;
-}
-
 
 .direita {
     height: 80%;
@@ -46,7 +31,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F1B420;
 }
 
 .image {
@@ -64,6 +48,61 @@
     height: 60%;
 }
 
-.imageLunch {
-    margin-top: 30px;
+/* Responsividade para Laptop L */
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .main {
+        height: 100vh;
+    }
+
+    .esquerda {
+        width: 50%;
+    }
+
+    .direita {
+        width: 50%;
+    }
+}
+
+/* Responsividade para Laptop 1024 */
+@media (max-screen: 1024px) and (min-screen: 768px){
+    .direita {
+        width: 50%;
+        height: 100%;
+    }
+
+    .esquerda {
+        width: 50%;
+        height: 100%;
+    }
+
+    .image {
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Responsividade para Tablet */
+@media (max-width: 768px) {
+    .main {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .esquerda {
+        width: 100%;
+        height: 50%;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .direita {
+        width: 100%;
+        height: 50%;
+    }
+
+    .image {
+        height: 100%;
+    }
 }

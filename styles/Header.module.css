@@ -1,7 +1,13 @@
 .header {
-    background-color: #EF3340;
+    background-color: #ffb834;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+@media (max-width: 375px) {
+    .header {
+        width: 430px;
+    }
 }

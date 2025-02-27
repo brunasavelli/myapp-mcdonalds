@@ -1,0 +1,25 @@
+.cards {
+    background-color: #ffffff;
+    width: 600px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 30px rgba(145, 145, 145, 0.3);
+    margin-left: 50px;
+}
+
+.text {
+    width: 500px;
+    height: 130px;
+}
+
+@media  (max-width: 1024px) {
+    .cards {
+        width: 520px;
+    }
+}
