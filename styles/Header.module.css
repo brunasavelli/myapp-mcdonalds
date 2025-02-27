@@ -5,9 +5,3 @@
     align-items: center;
     color: white;
 }
-
-@media (max-width: 375px) {
-    .header {
-        width: 430px;
-    }
-}

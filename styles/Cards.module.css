@@ -20,6 +20,8 @@
 
 @media  (max-width: 1024px) {
     .cards {
-        width: 520px;
+        height: 100px;
+        width: 500px;
     }
 }
+
